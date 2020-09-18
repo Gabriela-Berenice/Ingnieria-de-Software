@@ -9,5 +9,5 @@ inicio = time.time()
 
 #Filtro
 filtro = list(filter(lambda n: n in books, lista))
-print(len(filtro))
+print(len("El resultado es: ", filtro))
 print('Tiempo: {} segundos'.format(time.time() - inicio))
