@@ -1,8 +1,7 @@
-#importar librerias
 import numpy as np
 import time
 
-#abrir documento txt
+#Importar txt
 lista = np.genfromtxt('costos.txt')
 
 inicio = time.time()
