@@ -1,7 +1,7 @@
 import numpy as np
 import time 
 
-# abri docuemnto txt y guardar en una variable
+# Se Importa el documento y se lamacena en una variable
 with open('costos.txt') as c:
     lista_costos = c.read().split('\n')
 
@@ -17,6 +17,5 @@ for valor in costos:
         menor.append(valor)
         monto_total = np.sum(menor)
 
-#imprimir gasto total y el tiempo
 print('Monto total de seleccion es $', monto_total)
 print('Tiempo: {} segundos'.format(time.time() - inicio))
