@@ -1,9 +1,8 @@
-#Importamos las librerias "math" y "cmath"
 import math
 import cmath
 
 while 1:
-#Menu de seleccion 
+# Menu de seleccion 
     print("CALCULADORA")
     print("Debe elegir una opción")
     print("1-Suma")
@@ -16,7 +15,7 @@ while 1:
     print("8-Hipotenusa de un Triangulo")
     x= input("Escribe tu elección:\n")
     y=float(x)
-
+    # Suma
     if(y==1):
         a=float(input("Ingresa un número\n"))
         b=float(input("Ingresa otro número\n"))
@@ -24,6 +23,7 @@ while 1:
         operar = input("¿quiere seguir operando? (s/n)")
         if operar== "n":
             break
+    #Resta
     elif(y==2):
         a=float(input("Ingresa un número\n"))
         b=float(input("Ingresa otro número\n"))
@@ -31,6 +31,7 @@ while 1:
         operar = input("¿quiere seguir operando? (s/n)")
         if operar== "n":
             break
+    #Multiplicación         
     elif(y==3):
         a=float(input("Ingresa un número\n"))
         b=float(input("Ingresa otro número\n"))
@@ -38,6 +39,7 @@ while 1:
         operar = input("¿quiere seguir operando? (s/n)")
         if operar== "n":
             break
+    #Division
     elif(y==4):
         a=float(input("Ingresa un número\n"))
         b=float(input("Ingresa otro número\n"))
@@ -48,6 +50,7 @@ while 1:
             operar = input("¿quiere seguir operando? (s/n)")
         if operar== "n":
             break
+    #Raiz Cuadrada
     elif(y==5):
         print("Ingresa un Numero")
         Raiz= float(input())
@@ -55,6 +58,7 @@ while 1:
         operar = input("¿quiere seguir operando? (s/n)")
         if operar== "n":
             break
+    #Radianes
     elif(y==6):
         print("Ingrese los Grados")
         Rad= float(input())
@@ -62,6 +66,7 @@ while 1:
         operar = input("¿quiere seguir operando? (s/n)")
         if operar== "n":
             break
+    #Factorial de un Numero
     elif(y==7):
         print("Ingrese un numero")
         fact= float(input())
@@ -69,6 +74,7 @@ while 1:
         operar = input("¿quiere seguir operando? (s/n)")
         if operar== "n":
             break
+    #Hipotenusa de un Triangulo
     elif(y==8):
         print("Ingrese Cateto a")
         Cateto_a= float(input())
@@ -81,7 +87,3 @@ while 1:
             break
     else:
         print("NUMERO INVALIDO")
-
-    
-       
-
