@@ -9,5 +9,5 @@ inicio = time.time()
 
 #Filtro
 filtro = list(filter(lambda n: n in books, lista))
-print(len("El resultado es: ", filtro))
+print("Se repite ", len(filtro), "veces")
 print('Tiempo: {} segundos'.format(time.time() - inicio))
