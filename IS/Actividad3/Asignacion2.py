@@ -1,7 +1,6 @@
 import numpy as np
 import time
 
-#Importar txt
 lista = np.genfromtxt('costos.txt')
 
 inicio = time.time()
