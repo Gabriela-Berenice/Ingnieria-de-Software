@@ -2,7 +2,7 @@ import random
 import numpy as np
 import time
 
-puntos = np.random.normal(500,30,10000000)
+puntos = np.random.normal(500,10000000,30)
 
 inicio = time.time()
 menor = []
