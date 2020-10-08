@@ -2,15 +2,13 @@ import random
 import numpy as np
 import time
 
-puntos = range(500,10000000,30)
+puntos = np.random.normal(500,30,10000000)
 
 inicio = time.time()
 menor = []
 
-lista_menores = map(int, puntos)
-
 #comparacion de los numeros menores a 500,000
-for valor in lista_menores:
+for valor in puntos:
     if valor < 500000:
         menor.append(valor)
         total_puntos = np.sum(menor)
