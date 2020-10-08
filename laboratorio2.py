@@ -1,7 +1,19 @@
+import random
+import numpy as np
+import time
 
-for i in range(500,10000000,30):
-    puntos = i
-lista_puntos = puntos[puntos < 500000]
-suma_total = np.sum(lista_puntos)
+puntos = range(500,10000000,30)
 
-print(suma_total)
+inicio = time.time()
+menor = []
+
+lista_menores = map(int, puntos)
+
+#comparacion de los numeros menores a 500,000
+for valor in lista_menores:
+    if valor < 500000:
+        menor.append(valor)
+        total_puntos = np.sum(menor)
+
+print('Monto total de la suma de los numeros menores a 500,000 es $', total_puntos)
+print('Tiempo: {} segundos'.format(time.time() - inicio))
