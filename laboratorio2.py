@@ -17,3 +17,12 @@ for valor in lista_menores:
 
 print('Monto total de la suma de los numeros menores a 500,000 es $', total_puntos)
 print('Tiempo: {} segundos'.format(time.time() - inicio))
+
+import numpy as np
+
+puntos = np.random.normal(loc=500,scale=30,size=10000000)
+puntos
+
+while  puntos < 500000:
+    suma = suma + puntos
+    print(suma)
