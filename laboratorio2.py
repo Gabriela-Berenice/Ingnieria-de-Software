@@ -8,9 +8,10 @@ inicio = time.time()
 menor = []
 
 #comparacion de los numeros menores a 500,000
-for valor in puntos:
-    if valor < 500000:
-        menor.append(valor)
+
+for cantidad in puntos:
+    if cantidad < 500000:
+        menor.append(cantidad)
         total_puntos = np.sum(menor)
 
 print('Monto total de la suma de los numeros menores a 500,000 es $', total_puntos)
