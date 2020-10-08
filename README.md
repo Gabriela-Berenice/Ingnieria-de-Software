@@ -1,2 +1,4 @@
-# Ingnieria-de-Software
-Este repositorio esta destinado para las tareas de la materia de Sistemas Expertos
+# Parcial 2
+
+1. Codificar una solución que optimice la ejecución del planteamiento del laboratorio.
+2. La solución debe optimizar el tiempo de ejecución al menos en un 300%.
